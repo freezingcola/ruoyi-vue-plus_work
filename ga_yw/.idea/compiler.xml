@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for RuoYi-Vue-Plus" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-admin" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-core" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-core" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-doc" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-doc" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-encrypt" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-encrypt" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-excel" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-excel" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-idempotent" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-idempotent" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-job" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-job" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-json" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-json" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-log" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-log" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-mail" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-mail" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-mybatis" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-mybatis" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-oss" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-oss" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-ratelimiter" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-ratelimiter" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-redis" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-redis" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-satoken" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-satoken" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-security" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-security" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-sensitive" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-sensitive" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-sms" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-sms" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-social" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-social" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-tenant" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-tenant" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-translation" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-translation" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-web" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-common-websocket" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-common-websocket" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-monitor-admin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-monitor-admin" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-snailjob-server" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-snailjob-server" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-canteen" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-canteen" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-demo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-demo" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-generator" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-generator" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-job" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-job" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-system" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-system" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-workflow" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-workflow" />
+      </profile>
+      <profile name="Annotation profile for ruoyi-workinfo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc-scribe/0.15.0/therapi-runtime-javadoc-scribe-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/github/therapi/therapi-runtime-javadoc/0.15.0/therapi-runtime-javadoc-0.15.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.2.5/spring-boot-configuration-processor-3.2.5.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus-processor/1.3.6/mapstruct-plus-processor-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/io/github/linpeilie/mapstruct-plus/1.3.6/mapstruct-plus-1.3.6.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/cn/hutool/hutool-core/5.8.15/hutool-core-5.8.15.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/com/baidu/lbsyun/javapoet/1.9.0/javapoet-1.9.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../C-Movingcatalogue/maven-3.9.3/maven-repository/.m2/repository/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+        </processorPath>
+        <module name="ruoyi-workinfo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="canteen" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="canteen" options="-parameters" />
+      <module name="ruoyi-admin" options="-parameters" />
+      <module name="ruoyi-canteen" options="-parameters" />
+      <module name="ruoyi-common" options="-parameters" />
+      <module name="ruoyi-common-core" options="-parameters" />
+      <module name="ruoyi-common-doc" options="-parameters" />
+      <module name="ruoyi-common-encrypt" options="-parameters" />
+      <module name="ruoyi-common-excel" options="-parameters" />
+      <module name="ruoyi-common-idempotent" options="-parameters" />
+      <module name="ruoyi-common-job" options="-parameters" />
+      <module name="ruoyi-common-json" options="-parameters" />
+      <module name="ruoyi-common-log" options="-parameters" />
+      <module name="ruoyi-common-mail" options="-parameters" />
+      <module name="ruoyi-common-mybatis" options="-parameters" />
+      <module name="ruoyi-common-oss" options="-parameters" />
+      <module name="ruoyi-common-ratelimiter" options="-parameters" />
+      <module name="ruoyi-common-redis" options="-parameters" />
+      <module name="ruoyi-common-satoken" options="-parameters" />
+      <module name="ruoyi-common-security" options="-parameters" />
+      <module name="ruoyi-common-sensitive" options="-parameters" />
+      <module name="ruoyi-common-sms" options="-parameters" />
+      <module name="ruoyi-common-social" options="-parameters" />
+      <module name="ruoyi-common-tenant" options="-parameters" />
+      <module name="ruoyi-common-translation" options="-parameters" />
+      <module name="ruoyi-common-web" options="-parameters" />
+      <module name="ruoyi-common-websocket" options="-parameters" />
+      <module name="ruoyi-demo" options="-parameters" />
+      <module name="ruoyi-extend" options="-parameters" />
+      <module name="ruoyi-generator" options="-parameters" />
+      <module name="ruoyi-job" options="-parameters" />
+      <module name="ruoyi-modules" options="-parameters" />
+      <module name="ruoyi-monitor-admin" options="-parameters" />
+      <module name="ruoyi-snailjob-server" options="-parameters" />
+      <module name="ruoyi-system" options="-parameters" />
+      <module name="ruoyi-vue-plus" options="-parameters" />
+      <module name="ruoyi-workflow" options="-parameters" />
+      <module name="ruoyi-workinfo" options="-parameters" />
+    </option>
+  </component>
+</project>

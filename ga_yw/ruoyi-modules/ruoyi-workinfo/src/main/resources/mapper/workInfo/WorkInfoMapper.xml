@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.dromara.workinfo.mapper.WorkInfoMapper">
+
+    <!-- 通用查询结果列 -->
+    <sql id="baseColumns">
+        id, work_title, work_content, state, work_type, accept_account, update_time,
+        create_time, tenant_id, create_dept, create_by, update_by, attachs, project_name,
+        work_level, number, contact_person
+    </sql>
+
+    <!-- 工单列表查询 -->
+    <select id="selectWorkInfoList" resultType="org.dromara.workinfo.domain.vo.WorkInfoVo">
+        SELECT
+        <choose>
+            <when test="ew.sqlSelect != null and ew.sqlSelect != ''">
+                ${ew.sqlSelect}
+            </when>
+            <otherwise>
+                <include refid="baseColumns"/>
+            </otherwise>
+        </choose>
+        FROM work_info
+        ${ew.customSqlSegment}
+        ORDER BY create_time DESC
+    </select>
+
+    <!-- 最新工单查询 -->
+    <select id="selectWorkInfoListNew" resultType="org.dromara.workinfo.domain.vo.WorkInfoVo">
+        SELECT
+        <include refid="baseColumns"/>
+        FROM work_info
+        WHERE state = '4'
+        ORDER BY create_time DESC
+    </select>
+
+    <!-- 工单总数统计 -->
+    <select id="selectCount" parameterType="map" resultType="org.dromara.workinfo.domain.vo.WorkInfoCountVo">
+        SELECT COUNT(1) AS ct
+        FROM work_info
+        <where>
+            tenant_id = #{tenantId}
+            <include refid="acceptAccount"/>
+        </where>
+    </select>
+
+    <!-- 工单状态分布统计 -->
+    <select id="selectWorkInfoStateCount" parameterType="map" resultType="org.dromara.workinfo.domain.vo.WorkInfoCountVo">
+        SELECT state, COUNT(1) AS ct
+        FROM work_info
+        <where>
+            tenant_id = #{tenantId}
+            <include refid="createByParams"/>
+            <include refid="createTimeParams"/>
+        </where>
+        GROUP BY state
+    </select>
+
+    <!-- 每日工单趋势统计 -->
+    <select id="selectWorkInfoTimeCount" parameterType="map" resultType="org.dromara.workinfo.domain.vo.WorkInfoCountVo">
+        SELECT
+        DATE_FORMAT(create_time, '%Y-%m-%d') AS name,
+        SUM(CASE WHEN state >= 5 THEN 1 ELSE 0 END) AS finishCt,
+        COUNT(1) AS totalCt
+        FROM work_info
+        <where>
+            tenant_id = #{tenantId}
+            <include refid="createByParams"/>
+            <include refid="createTimeParams"/>
+        </where>
+        GROUP BY DATE_FORMAT(create_time, '%Y-%m-%d')
+        ORDER BY name ASC
+    </select>
+
+    <!-- 周维度工单统计（含部门） -->
+    <select id="selectWorkInfoWeekCount" parameterType="map" resultType="org.dromara.workinfo.domain.vo.WorkInfoCountVo">
+        SELECT
+        IFNULL(sd.dept_name, '未分配') AS deptName,
+        DATE_FORMAT(wi.create_time, '%Y-%m-%d') AS name,
+        SUM(CASE WHEN wi.state >= 5 THEN 1 ELSE 0 END) AS finishCt,
+        COUNT(1) AS totalCt
+        FROM work_info wi
+        LEFT JOIN sys_user su ON wi.create_by = su.user_id
+        LEFT JOIN sys_dept sd ON su.dept_id = sd.dept_id
+        <where>
+            wi.tenant_id = #{tenantId}
+            <include refid="createByParams"/>
+            <include refid="createTimeParams"/>
+        </where>
+        GROUP BY sd.dept_name, DATE_FORMAT(wi.create_time, '%Y-%m-%d')
+        ORDER BY name ASC
+    </select>
+
+    <!-- 项目维度工单统计 -->
+    <select id="selectWorkInfoProjectCount" parameterType="map" resultType="org.dromara.workinfo.domain.vo.WorkInfoProjectCountVo">
+        SELECT
+        IFNULL(wp.pro_name, '未关联项目') AS proName,
+        COUNT(1) AS ct
+        FROM work_info wi
+        LEFT JOIN work_project wp ON wi.project_name = wp.id
+        <where>
+            wi.tenant_id = #{tenantId}
+            <include refid="createTimeParams"/>
+            <include refid="createByParams"/>
+        </where>
+        GROUP BY wp.pro_name
+    </select>
+
+    <!-- 动态SQL片段 -->
+    <sql id="createByParams">
+        <if test="userIds != null and !userIds.isEmpty()">
+            AND create_by IN
+            <foreach item="userId" collection="userIds"
+                     open="(" separator="," close=")">
+                #{userId}
+            </foreach>
+        </if>
+    </sql>
+
+    <sql id="createTimeParams">
+        <if test="startTime != null">
+            AND create_time >= #{startTime}
+        </if>
+        <if test="endTime != null">
+            AND create_time &lt;= #{endTime}
+        </if>
+    </sql>
+
+    <sql id="acceptAccount">
+        <if test="acceptAccount != null and acceptAccount != ''">
+            AND accept_account = #{acceptAccount}
+        </if>
+    </sql>
+
+</mapper>
