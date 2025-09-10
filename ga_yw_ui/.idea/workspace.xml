@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb7b162e-0b63-489b-8254-cdc7853c9156" name="Changes" comment="#更新功能#修复Bug">
+      <change beforePath="$PROJECT_DIR$/src/api/workInfo/workInfo/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/workInfo/workInfo/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/newWork/work/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/newWork/work/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+        <option value="Vue Class API Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2mUmL2oAVDawlstmi1ABI0BBcfd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/work/ga_yw_ui/src/views/newWork/work&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\work\\ga_yw_ui\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;,
+      &quot;Vue Class API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\ga_yw_ui\src\views\newWork\work" />
+      <recent name="D:\work\zzkj_oa_ui_new\src\views\daily\daily" />
+      <recent name="D:\work\zzkj_oa_ui_new\src\views\newWork\work" />
+      <recent name="D:\work\zzkj_oa_ui_new\src\views\newWork\workaudit" />
+      <recent name="D:\work\zzkj_oa_ui\src\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\zzkj_oa_ui_new\src\views\daily\daliy" />
+      <recent name="D:\work\zzkj_oa_ui_new\src\views\daily\index" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb7b162e-0b63-489b-8254-cdc7853c9156" name="Changes" comment="" />
+      <created>1727139469869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727139469869</updated>
+      <workItem from="1727139471952" duration="708000" />
+      <workItem from="1727143837780" duration="21000" />
+      <workItem from="1727157851966" duration="16996000" />
+      <workItem from="1727311291886" duration="1007000" />
+      <workItem from="1727312362826" duration="16553000" />
+      <workItem from="1727400572817" duration="12593000" />
+      <workItem from="1727483411636" duration="1601000" />
+      <workItem from="1727486183282" duration="1783000" />
+      <workItem from="1727576189797" duration="7441000" />
+      <workItem from="1727656450971" duration="3809000" />
+      <workItem from="1728347649377" duration="10013000" />
+      <workItem from="1728368682397" duration="247000" />
+      <workItem from="1728371410770" duration="1410000" />
+      <workItem from="1728541798586" duration="223000" />
+      <workItem from="1728870487791" duration="6219000" />
+      <workItem from="1729069935226" duration="145000" />
+      <workItem from="1729473857490" duration="3495000" />
+      <workItem from="1729556752182" duration="4794000" />
+      <workItem from="1729650898657" duration="1508000" />
+      <workItem from="1729738535672" duration="579000" />
+      <workItem from="1729818693071" duration="7159000" />
+      <workItem from="1730556478936" duration="1476000" />
+      <workItem from="1730684115509" duration="514000" />
+      <workItem from="1730702095907" duration="6319000" />
+      <workItem from="1730711580857" duration="1000" />
+      <workItem from="1730711949352" duration="1276000" />
+      <workItem from="1730769922455" duration="9445000" />
+      <workItem from="1730789542931" duration="74000" />
+      <workItem from="1730861892109" duration="498000" />
+      <workItem from="1733293770996" duration="212000" />
+      <workItem from="1734684987771" duration="2289000" />
+      <workItem from="1734914016831" duration="16995000" />
+      <workItem from="1735000586782" duration="15177000" />
+      <workItem from="1735086879826" duration="457000" />
+      <workItem from="1735095430207" duration="2250000" />
+      <workItem from="1735175401546" duration="3033000" />
+      <workItem from="1735199800171" duration="4276000" />
+      <workItem from="1735279729766" duration="401000" />
+      <workItem from="1736123136860" duration="17488000" />
+      <workItem from="1736219986427" duration="2669000" />
+      <workItem from="1736298826936" duration="271000" />
+      <workItem from="1736470025767" duration="8593000" />
+      <workItem from="1736560606993" duration="10324000" />
+      <workItem from="1737448859269" duration="1662000" />
+      <workItem from="1738716676896" duration="17998000" />
+      <workItem from="1738802341419" duration="4527000" />
+      <workItem from="1738892354853" duration="6838000" />
+      <workItem from="1738975082966" duration="2000" />
+      <workItem from="1738975234920" duration="331000" />
+      <workItem from="1738977379959" duration="948000" />
+      <workItem from="1739004557324" duration="2530000" />
+      <workItem from="1739147583654" duration="3227000" />
+      <workItem from="1739157576134" duration="137000" />
+      <workItem from="1739170301191" duration="1319000" />
+      <workItem from="1739172153056" duration="4617000" />
+      <workItem from="1739240378730" duration="5186000" />
+      <workItem from="1739322651553" duration="3865000" />
+      <workItem from="1739427502581" duration="11343000" />
+      <workItem from="1739494313810" duration="11854000" />
+      <workItem from="1739703607449" duration="13695000" />
+      <workItem from="1739751356667" duration="6743000" />
+      <workItem from="1739839187412" duration="3209000" />
+      <workItem from="1739842945801" duration="232000" />
+      <workItem from="1740043839836" duration="638000" />
+      <workItem from="1740359190299" duration="8085000" />
+      <workItem from="1740383891108" duration="1792000" />
+      <workItem from="1740529891316" duration="12701000" />
+      <workItem from="1740616384780" duration="12069000" />
+      <workItem from="1740710867698" duration="3785000" />
+      <workItem from="1740727901210" duration="1756000" />
+      <workItem from="1740898886563" duration="4204000" />
+      <workItem from="1740962486185" duration="2298000" />
+      <workItem from="1741051938063" duration="4430000" />
+      <workItem from="1741088608831" duration="599000" />
+      <workItem from="1741090804836" duration="721000" />
+      <workItem from="1741135031703" duration="11844000" />
+      <workItem from="1741308448118" duration="14144000" />
+      <workItem from="1741509726576" duration="7517000" />
+      <workItem from="1741567025397" duration="2650000" />
+      <workItem from="1741575860382" duration="312000" />
+      <workItem from="1741664086094" duration="2611000" />
+      <workItem from="1741759742610" duration="320000" />
+      <workItem from="1741922696180" duration="2596000" />
+      <workItem from="1742011899594" duration="220000" />
+      <workItem from="1742042094469" duration="87000" />
+      <workItem from="1742173138556" duration="3987000" />
+      <workItem from="1742193991054" duration="1256000" />
+      <workItem from="1742264182560" duration="8257000" />
+      <workItem from="1742352978548" duration="13000" />
+      <workItem from="1742353587316" duration="608000" />
+      <workItem from="1742364387575" duration="24000" />
+      <workItem from="1742368910264" duration="3382000" />
+      <workItem from="1742430364609" duration="4214000" />
+      <workItem from="1742435804980" duration="1278000" />
+      <workItem from="1742455944787" duration="657000" />
+    </task>
+    <task id="LOCAL-00001" summary="#修改功能#修改功能功能及样式">
+      <created>1727677477346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727677477346</updated>
+    </task>
+    <task id="LOCAL-00002" summary="#修改功能#修改功能功能及样式">
+      <created>1730789347061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730789347061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="#修改功能#修改功能功能及样式">
+      <created>1730789590645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730789590645</updated>
+    </task>
+    <task id="LOCAL-00004" summary="#修改功能#修改功能功能及样式">
+      <created>1736158679144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736158679144</updated>
+    </task>
+    <task id="LOCAL-00005" summary="#修改功能#修改功能功能及样式">
+      <created>1736504184369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736504184369</updated>
+    </task>
+    <task id="LOCAL-00006" summary="#修改功能#更新样式">
+      <created>1738746861138</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738746861138</updated>
+    </task>
+    <task id="LOCAL-00007" summary="#修改功能#更新样式">
+      <created>1738747286655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738747286656</updated>
+    </task>
+    <task id="LOCAL-00008" summary="#修改功能#更新样式">
+      <created>1738808914518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738808914518</updated>
+    </task>
+    <task id="LOCAL-00009" summary="#修改功能#更新样式">
+      <created>1738893496834</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738893496834</updated>
+    </task>
+    <task id="LOCAL-00010" summary="#修改功能#更新样式">
+      <created>1738893936165</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738893936165</updated>
+    </task>
+    <task id="LOCAL-00011" summary="#修改功能#更新样式">
+      <created>1738977591354</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738977591354</updated>
+    </task>
+    <task id="LOCAL-00012" summary="#修改功能#更新样式">
+      <created>1739150572042</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739150572042</updated>
+    </task>
+    <task id="LOCAL-00013" summary="#修改功能#更新样式">
+      <created>1739150854816</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739150854817</updated>
+    </task>
+    <task id="LOCAL-00014" summary="#修改功能#更新样式">
+      <created>1739172231719</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739172231719</updated>
+    </task>
+    <task id="LOCAL-00015" summary="#修改功能#更新样式">
+      <created>1739172323821</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739172323821</updated>
+    </task>
+    <task id="LOCAL-00016" summary="#修改功能#更新样式">
+      <created>1739172359649</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739172359649</updated>
+    </task>
+    <task id="LOCAL-00017" summary="#修改功能#更新样式">
+      <created>1739172391175</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739172391175</updated>
+    </task>
+    <task id="LOCAL-00018" summary="#修改功能#更新样式">
+      <created>1739256346049</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739256346049</updated>
+    </task>
+    <task id="LOCAL-00019" summary="#修改功能#更新样式">
+      <created>1739322659678</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739322659678</updated>
+    </task>
+    <task id="LOCAL-00020" summary="#修改功能#修复文字超出无法显示问题">
+      <created>1739325949954</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1739325949954</updated>
+    </task>
+    <task id="LOCAL-00021" summary="#修改功能#推文件">
+      <created>1739427829196</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1739427829196</updated>
+    </task>
+    <task id="LOCAL-00022" summary="#修改功能#增加各种功能">
+      <created>1739434512232</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1739434512232</updated>
+    </task>
+    <task id="LOCAL-00023" summary="#修改功能#增加周报汇总功能">
+      <created>1739757131017</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1739757131017</updated>
+    </task>
+    <task id="LOCAL-00024" summary="#修改功能#增加字段修复BUG">
+      <created>1740540007475</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740540007475</updated>
+    </task>
+    <task id="LOCAL-00025" summary="#修改功能#增加工作时长计算功能">
+      <created>1740624573344</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740624573344</updated>
+    </task>
+    <task id="LOCAL-00026" summary="#更新功能#增加项目管理删除功能，修复图片无法预览">
+      <created>1740903178376</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1740903178376</updated>
+    </task>
+    <task id="LOCAL-00027" summary="#更新功能#增加功能和月报样式">
+      <created>1741156956329</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1741156956330</updated>
+    </task>
+    <task id="LOCAL-00028" summary="#更新功能#修复周报3个按钮点击逻辑错误问题&#10;修复接收和完成时没有强制输入bug">
+      <created>1741339871292</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1741339871292</updated>
+    </task>
+    <task id="LOCAL-00029" summary="#更新功能#修改首页各种样式">
+      <created>1741569218183</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1741569218183</updated>
+    </task>
+    <task id="LOCAL-00030" summary="#更新功能#修复Bug">
+      <created>1741680064834</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1741680064834</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#修改功能#修改功能功能及样式" />
+    <MESSAGE value="#修改功能#更新样式" />
+    <MESSAGE value="#修改功能#修复文字超出无法显示问题" />
+    <MESSAGE value="#修改功能#推文件" />
+    <MESSAGE value="#修改功能#增加各种功能" />
+    <MESSAGE value="#修改功能#增加周报汇总功能" />
+    <MESSAGE value="#修改功能#增加字段修复BUG" />
+    <MESSAGE value="#修改功能#增加工作时长计算功能" />
+    <MESSAGE value="#更新功能#增加项目管理删除功能，修复图片无法预览" />
+    <MESSAGE value="#更新功能#增加功能和月报样式" />
+    <MESSAGE value="#更新功能#修复周报3个按钮点击逻辑错误问题&#10;修复接收和完成时没有强制输入bug" />
+    <MESSAGE value="#更新功能#修改首页各种样式" />
+    <MESSAGE value="#更新功能#修复Bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="#更新功能#修复Bug" />
+  </component>
+</project>
