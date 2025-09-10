@@ -1,0 +1,1 @@
+import{an as t}from"./index-BoCONcAc.js";const r=e=>t({url:"/demo/leave/list",method:"get",params:e}),o=e=>t({url:"/demo/leave/"+e,method:"get"}),d=e=>t({url:"/demo/leave",method:"post",data:e}),s=e=>t({url:"/demo/leave",method:"put",data:e}),l=e=>t({url:"/demo/leave/"+e,method:"delete"});export{d as a,l as d,o as g,r as l,s as u};

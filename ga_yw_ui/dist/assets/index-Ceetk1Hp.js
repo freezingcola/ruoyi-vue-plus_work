@@ -1,0 +1,1 @@
+import{L as o,j as n,o as r,c,k as s}from"./index-BoCONcAc.js";const t={};function _(a,d){const e=n("v-form-designer");return r(),c("div",null,[s(e)])}const m=o(t,[["render",_]]);export{m as default};

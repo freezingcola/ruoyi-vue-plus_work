@@ -1,0 +1,1 @@
+import{an as n}from"./index-BoCONcAc.js";const e=o=>n({url:"/infolog/infoLog/list",method:"get",params:o}),r=o=>n({url:"/infolog/infoLog/"+o,method:"get"}),g=o=>n({url:"/infolog/infoLog",method:"post",data:o}),f=o=>n({url:"/infolog/infoLog",method:"put",data:o}),s=o=>n({url:"/infolog/infoLog/"+o,method:"delete"});export{g as a,s as d,r as g,e as l,f as u};
