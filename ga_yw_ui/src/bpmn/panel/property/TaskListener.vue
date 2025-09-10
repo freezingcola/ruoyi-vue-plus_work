@@ -91,8 +91,7 @@
 <script setup lang="ts">
 import ListenerParam from './ListenerParam.vue';
 import { VxeTableEvents, VxeTableInstance, VxeTablePropTypes } from 'vxe-table';
-import { TaskListenerVO } from 'bpmnDesign';
-import { ModdleElement } from 'bpmn';
+import type { ModdleElement } from 'bpmn-moddle';
 
 import usePanel from '../../hooks/usePanel';
 import useDialog from '@/hooks/useDialog';
@@ -103,6 +102,15 @@ const { proxy } = getCurrentInstance() as ComponentInternalInstance;
 interface PropType {
   element: ModdleElement;
 }
+
+interface TaskListenerVO {
+  event: string;
+  class: string;
+  expression?: string;
+  delegateExpression?: string;
+  fields?: any[];
+}
+
 const props = withDefaults(defineProps<PropType>(), {});
 
 const selectRow = ref<TaskListenerVO | null>();
